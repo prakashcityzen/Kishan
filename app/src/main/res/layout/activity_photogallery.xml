@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="201dp"
+                android:layout_marginLeft="9dp"
+
+                android:layout_marginRight="9dp"
+                app:srcCompat="@drawable/neckrotblastrog"/>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="नेट रूट र प्यानिल ब्लाष्ट रोग"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="22sp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="196dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginRight="9dp"
+
+                app:srcCompat="@drawable/blastmgmt"/>
+
+
+            <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:textSize="24dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:text="ब्लाष्ट रोग रोकथाम गर्ने तरिका"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginTop="0dp"
+                android:adjustViewBounds="true"
+
+                app:srcCompat="@drawable/collarr"/>
+            <TextView
+                android:id="@+id/textView01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="कोलार रोट रोग "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="24sp"/>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_margin="3dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="9dp"
+
+                app:srcCompat="@drawable/sheathblight"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="0dp"
+                android:text="सिथ बलाईट रोग "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="24dp"/>
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="9dp"
+
+                app:srcCompat="@drawable/gandakira"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:textSize="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+
+                android:text="गन्ध किरा"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="9dp"
+
+                app:srcCompat="@drawable/lcc"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="लिफ कलर चार्ट।यसले कति मात्रामा रसायनिक मल चाहिन्छ भन्ने बताउँछ।"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="24sp"/>
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="9dp"
+
+                app:srcCompat="@drawable/dhancuttingmachine"/>
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="धान काट्ने आधुनिक मेसिन "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="24sp"/>
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="9dp"
+
+                app:srcCompat="@drawable/dhanropne"/>
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="धान रोप्ने आधुनिक मेसिन "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="24sp"/>
+
+
+        </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
